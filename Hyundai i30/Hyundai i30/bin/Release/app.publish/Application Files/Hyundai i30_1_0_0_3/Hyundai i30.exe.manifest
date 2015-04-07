@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Hyundai i30.exe" version="1.0.0.3" publicKeyToken="cb6766562bd6f6e3" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Hyundai i30" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Hyundai i30.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Hyundai i30.exe" size="1008128">
+      <assemblyIdentity name="Hyundai i30" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Or6LmO/2IuMtMPwv7G3UJrHLUJ+BbW7yBguObl65O/c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Hyundai i30.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icon.ico" size="161862">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PYvblTXrKh4zlWczUe04HLNmwN7beiz4htM/0AwNSnI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 8.1, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=Master-PC\Master" issuerKeyHash="aef498e122bdcdb403596c4edb8f2fec2d7c53f0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>AkOXnQzhxwgWv8Jo/NBkEanG7W/Aac5qIVxuZlW+HlA=</DigestValue></Reference></SignedInfo><SignatureValue>hUldZS4YLRfyr6DYpfkWvon/jPBMwxJc/z2A3hVSKR0500rWBpBBnnL4H+xyR65jjYin9xmJzJpzG//TN4QP9jAzXFH8VkaCO8AnB/Pszp4aVNaUQ6MkCWcIEg2l+02c/kn7Wk2MjAEIhElUjm+9bRQf4t8tFWX5gZERif4CSZ0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wtIGpoPX/s0QMBnbYPKlKSmhPkevbbf7D0yq5pVpBCX21tL4qheM9D6Lh6EKDaQNm0ziKpH9WLcrA0hayDFAuwHbTZvpzD24hoc7O+wO8KeJSDRRn2SGgPCrin09QHjY+vmMxfctdcRjfpKVn3w5I7WnI+vU1WUX29+p+KBZVKM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="501ebe55666e5c216ace69c06fedc6a91164d0fc68c2bf1608c7e10c9d974302" Description="" Url=""><as:assemblyIdentity name="Hyundai i30.exe" version="1.0.0.3" publicKeyToken="cb6766562bd6f6e3" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Master-PC\Master</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Kji8FN6OTOgbcvvUN5RaAe5ALP2ZAt+L/8mQEMRYDx4=</DigestValue></Reference></SignedInfo><SignatureValue>XyPYR6yGsf2L/WhDZ1egCU/JJ4OjSHrMu7+8B84jieSfefe5Uneup2krtiA0wfz8VaKPoNeZtsWLQMOOHZCoPCLUZwTXD8T82hZcAM17jgQemem2BemKRSs4HgA7TK3PScz41kbzYr4IlYmtNjTjLoq9R+pTNkRTYJLd9YKkX9s=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wtIGpoPX/s0QMBnbYPKlKSmhPkevbbf7D0yq5pVpBCX21tL4qheM9D6Lh6EKDaQNm0ziKpH9WLcrA0hayDFAuwHbTZvpzD24hoc7O+wO8KeJSDRRn2SGgPCrin09QHjY+vmMxfctdcRjfpKVn3w5I7WnI+vU1WUX29+p+KBZVKM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQXFdmYdZYCZVKmvsymu/oGjANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAATQBhAHMAdABlAHIALQBQAEMAXABNAGEAcwB0AGUAcjAeFw0xNTA0MDcxOTI2NTlaFw0xNjA0MDcwMTI2NTlaMCsxKTAnBgNVBAMeIABNAGEAcwB0AGUAcgAtAFAAQwBcAE0AYQBzAHQAZQByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDC0gamg9f+zRAwGdtg8qUpKaE+R69tt/sPTKrmlWkEJfbW0viqF4z0PouHoQoNpA2bTOIqkf1YtysDSFrIMUC7AdtNm+nMPbiGhzs77A7wp4lINFGfZIaA8KuKfT1AeNj6+YzF9y11xGN+kpWffDkjtacj69TVZRfb36n4oFlUowIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAJ+LMPgePGXVqSHNidVKGErjjhH+uAel0EUbvzPLRrghSW6uIlZBOtlob5to7MGYWKrhRXTPtGTUJy4u2RwkVgLKIMMFAQ3Ht5XiCOJWtaAhdszZYZVA3G++jm07V9WalflSP/os2O+uaj+heBEWGNmGbfMWrmoVyDijJi7AhED0</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
